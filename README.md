@@ -21,3 +21,7 @@ In the future, we will possibly find a fix for supporting all minecraft versions
 - Install the [PocketMine-Devtools](https://poggit.pmmp.io/p/DevTools/1.14.2) plugin.
 - Create a folder named "MultiVersion" in your plugins folder.
 - Drag and drop the files you just downloaded!
+
+## Contributing
+
+- You can freely contribute to this plugin and help us out! If we find something that we might not need in the code YOU add, We may not accept it.
