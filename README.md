@@ -15,12 +15,16 @@ In the future, we will possibly find a fix for supporting all minecraft versions
 
 ## Installation
 
- **You can install this plugin in this way:**
+ **Hard way (developer friendly):**
 
 - Download the SRC.
 - Install the [PocketMine-Devtools](https://poggit.pmmp.io/p/DevTools/1.14.2) plugin.
 - Create a folder named "MultiVersion" in your plugins folder.
 - Drag and drop the files you just downloaded!
+
+**Easy way (normal user friendly):**
+- Download the .PHAR from the releases section
+- Drop the plugin into your plugins folder!
 
 ## Contributing
 
