@@ -23,7 +23,7 @@ In the future, we will possibly find a fix for supporting all minecraft versions
 - Drag and drop the files you just downloaded!
 
 **Easy way (normal user friendly):**
-- Download the .PHAR from the releases section
+- Download the .PHAR from the [releases](https://github.com/AstralClientNet/MultiVersion-Plugin/releases/) section
 - Drop the plugin into your plugins folder!
 
 ## Contributing
