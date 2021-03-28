@@ -1,4 +1,4 @@
-a<?php
+<?php
 
 declare(strict_types=1);
 
@@ -206,24 +206,5 @@ class ViaVersion extends PluginBase implements Listener
     public function leave(PlayerQuitEvent $event): void
     {
         unset($this->players[$event->getPlayer()->getName()]);
-    }
-    public function onAttack(EntityDamageByEntityEvent $ev)
-    {
-        $damaged = $ev->getEntity();
-        $damager = $ev->getDamager();
-
-        if($damaged instanceof Player && $damager instanceof Player)
-        {
-            if ($damaged->getGamemode() != 0 || $damaged->getGamemode() != 3)
-            {
-                $ev->setCancelled();
-            }
-            if ($damaged->getLevel() == "world")
-            {
-                $ev->setCancelled();
-            }
-            $damaged->knockBack($damager, $ev->getFinalDamage(), (float)$damaged->getX(), (float) $damaged->getZ());
-
-        }
     }
 }

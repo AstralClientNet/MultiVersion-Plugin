@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace ethaniccc\ViaVersion\hacks\v428;
 
 use pocketmine\network\mcpe\protocol\PlayerListPacket;
