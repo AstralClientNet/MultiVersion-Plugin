@@ -1,4 +1,4 @@
-# MultiVersion v0.0.1
+# MultiVersion v1.0
 This plugin lets you allow versions such as 1.16.210 on the PocketMine API Version, 3.17.0.
 Original plugin from https://github.com/ethaniccc/HackyNewVersionSupport , Fixed by the Astral Server Development Team.
 
@@ -10,8 +10,12 @@ In the future, we will possibly find a fix for supporting all minecraft versions
 
 **Known Bugs**
 - Hits do not register.
-- On skin change, Players on the 1.16.210 client get crashed. You can easily fix this by cancelling PlayerSkinChangeEvent.
+- On skin change, Players on the 1.16.210 client get crashed.
 
+**Fix those Bugs**
+
+Hit Registration - Try enabling xbox-auth and deleting the multiworld plugin, This may fix it.
+On Skin Change - Make a plugin that cancels the PlayerChangeSkinEvent
 
 ## Installation
 
